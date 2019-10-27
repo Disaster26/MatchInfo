@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>img/basketball.png</file>
+        <file>img/football.png</file>
+        <file>img/volleyball.png</file>
+        <file>img/tennis.png</file>
+        <file>img/hockey.png</file>
+        <file>img/handball.png</file>
+    </qresource>
+</RCC>

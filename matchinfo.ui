@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MatchInfo</class>
+ <widget class="QMainWindow" name="MatchInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>495</width>
+    <height>344</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MatchInfo</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QRadioButton" name="radioButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Obecnie trwające</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>41</y>
+      <width>461</width>
+      <height>261</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>495</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPi_ka_no_na">
+    <property name="title">
+     <string>Wybierz sport</string>
+    </property>
+    <addaction name="actionpi_ka_no_na"/>
+    <addaction name="actionTenis"/>
+    <addaction name="actionKoszyk_wka"/>
+    <addaction name="actionSiatk_wka"/>
+    <addaction name="actionPi_ka_r_czna"/>
+    <addaction name="actionHokej"/>
+   </widget>
+   <addaction name="menuPi_ka_no_na"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionpi_ka_no_na">
+   <property name="icon">
+    <iconset>
+     <normaloff>img/football.png</normaloff>img/football.png</iconset>
+   </property>
+   <property name="text">
+    <string>Piłka nożna</string>
+   </property>
+  </action>
+  <action name="actionTenis">
+   <property name="icon">
+    <iconset>
+     <normaloff>img/tennis.png</normaloff>img/tennis.png</iconset>
+   </property>
+   <property name="text">
+    <string>Tenis</string>
+   </property>
+  </action>
+  <action name="actionKoszyk_wka">
+   <property name="icon">
+    <iconset>
+     <normaloff>img/basketball.png</normaloff>img/basketball.png</iconset>
+   </property>
+   <property name="text">
+    <string>Koszykówka</string>
+   </property>
+  </action>
+  <action name="actionSiatk_wka">
+   <property name="icon">
+    <iconset>
+     <normaloff>img/volleyball.png</normaloff>img/volleyball.png</iconset>
+   </property>
+   <property name="text">
+    <string>Siatkówka</string>
+   </property>
+  </action>
+  <action name="actionPi_ka_r_czna">
+   <property name="icon">
+    <iconset>
+     <normaloff>img/handball.png</normaloff>img/handball.png</iconset>
+   </property>
+   <property name="text">
+    <string>Piłka ręczna</string>
+   </property>
+  </action>
+  <action name="actionHokej">
+   <property name="icon">
+    <iconset>
+     <normaloff>img/hockey.png</normaloff>img/hockey.png</iconset>
+   </property>
+   <property name="text">
+    <string>Hokej</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
